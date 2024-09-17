@@ -1,0 +1,6 @@
+{
+  "dilutionalIntegrityAndHookEffect": "//label[normalize-space()='Dilutional Integrity and Hook Effect']",
+  "dilutionalLinearityTest": "//a[normalize-space()='Dilutional Linearity']",
+  "addNewDL": "//button[normalize-space()='Add new Dilutional Linearity Test Result']",
+  "d1p1": "//a[normalize-space()='D1_P1_New Plate']"
+}

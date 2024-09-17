@@ -1,0 +1,8 @@
+{
+  "nextButton": "//button[normalize-space()='Next']",
+  "title": "//input[@placeholder='Project Title']",
+  "newProjectDes": "//textarea[@placeholder='Project description']",
+  "newProjectTag": "//input[@placeholder='+ New Tag']",
+  "buttonSave": "//button[normalize-space()='Save']",
+  "editProjectDes": "//tr[3]//td[1]//textarea"
+}

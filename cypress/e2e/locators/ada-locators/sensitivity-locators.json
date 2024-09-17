@@ -1,0 +1,6 @@
+{
+  "sensitivityTab": "//label[normalize-space()='Sensitivity']",
+  "sensitivityTestTab": "//a[normalize-space()='Sensitivity Test']",
+  "sen1Checkbox": "//label[normalize-space()='Sen1']",
+  "sensitivityResults": "[data-cy=sensitivity-results]"
+}

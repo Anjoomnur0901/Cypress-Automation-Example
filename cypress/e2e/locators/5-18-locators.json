@@ -1,0 +1,11 @@
+{
+  "yesRadioBtn": "//label[normalize-space()='Yes']",
+  "choseBtn": "//input[@type='file']",
+  "normData": "//a[normalize-space()='Normalize Data']",
+  "analyticalOutier": "//a[normalize-space()='Analytical Outlier']",
+  "naiSample": "//input[@type='radio']",
+  "d1": "//label[normalize-space()='Dataset 1']//input[@type='checkbox']",
+  "d2": "//label[normalize-space()='Dataset 2']//input[@type='checkbox']",
+  "nonParametric": "//button[normalize-space()='Non-Parametric']",
+  "para": "//button[normalize-space()='Parametric']"
+}

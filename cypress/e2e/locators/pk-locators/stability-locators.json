@@ -1,0 +1,9 @@
+{
+  "stabilityTab": "//label[normalize-space()='Stability']",
+  "stabilityTest": "//a[normalize-space()='Stability Test']",
+  "fTStabilityTestBtn": "//tr[2]//td[2]//button[1]",
+  "sTStabilityTestBtn": "//tr[3]//td[2]//button[1]",
+  "lTStabilityTestBtn": "//tr[4]//td[2]//button[1]",
+  "stabilityTypeTitle": ".card-header",
+  "stabilityResultsGTable": "[data-cy=stability-results-table]"
+}

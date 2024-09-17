@@ -1,0 +1,18 @@
+{
+  "summaryTab": "//a[normalize-space()='Summary']",
+  "fileHeaderCheckbox": "//input[@type='checkbox']",
+  "selectCsvCheckbox": "//label[normalize-space()='Import .csv (MS-DOS) File']",
+  "chooseFile": "//input[@value='Load .csv']",
+  "previewTitle": "//h4[normalize-space()='Preview']",
+  "templateSelect": "[data-cy=plate-template-select]",
+  "sampleGroupsTable": "[data-cy=sample-groups-table]",
+  "sampleGroupName": "[data-cy=sample-group-name]",
+  "sampleGroupType": "[data-cy=sample-group-type]",
+  "plateStatusSelect": "[data-cy=plate-status-select]",
+  "statusChangeAlert": "[data-cy=status-change-alert]",
+  "addNewPlate": "//label[normalize-space()='Add New Plate']",
+  "importDataBtn": "//button[normalize-space()='Import Data']",
+  "Gen5Btn": "//label[normalize-space()='Import .xlsx GEN-5 Plate Reader']",
+  "dataStartAtColumnInput": "//modal-container[@role='dialog']//tr[3]//td[2]//input",
+  "chooseXlsx": "//input[@value='Load .xlsx']"
+}

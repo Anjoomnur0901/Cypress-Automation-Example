@@ -1,0 +1,8 @@
+{
+  "drugTab": "//label[normalize-space()='Drug Tolerance']",
+  "drugTest": "//a[normalize-space()='Drug Tolerance Test']",
+  "DtrDruHpc": "//label[normalize-space()='DTR_Dru_HPC']",
+  "DtrDruLpc3": "//label[normalize-space()='DTR_Dru_LPC3']",
+  "DtrDruLpc2": "//label[normalize-space()='DTR_Dru_LPC2']",
+  "DtrDruLpc1": "//label[normalize-space()='DTR_Dru_LPC1']"
+}

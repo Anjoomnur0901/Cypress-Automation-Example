@@ -1,0 +1,14 @@
+{
+  "cutpointTab": "//a[normalize-space()='Cutpoint Analysis']",
+  "cutpointResult": "[data-cy=cutpoint-result]",
+  "datasetCheckboxes": "[data-cy=dataset-checkboxes]",
+  "parametric": "//button[normalize-space()='Parametric']",
+  "resultName": "//input[@class='ng-untouched ng-pristine ng-invalid']",
+  "resultComment": "//textarea[@class='ng-untouched ng-pristine ng-valid']",
+  "analyticalTab": "//a[normalize-space()='Analytical Outlier']",
+  "biologicalTab": "//a[normalize-space()='Biological Outlier']",
+  "anaOutlierTable": "[data-cy=ana-outlier-table]",
+  "bioOutlierTable": "[data-cy=bio-outlier-table]",
+  "naiTestArticle": "//label[normalize-space()='NAI_TEST ARTICLE']",
+  "d1P1Checkbox": "//label[normalize-space()='D1_P1_New Plate']//input[@type='radio']"
+}

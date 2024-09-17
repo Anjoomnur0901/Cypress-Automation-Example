@@ -1,0 +1,10 @@
+{
+  "confirmatoryCutpointFromNav": "//label[normalize-space()='Confirmatory Cutpoint']",
+  "TestArticle": "//label[normalize-space()='TEST ARTICLE']",
+  "includeNegativeInhChecbox": "[data-cy=include-neg-inh-checkbox]",
+  "acceptBtn": "//button[normalize-space()='Accept']",
+  "swStep": "[data-cy=sw-step]",
+  "statStep": "[data-cy=stat-step]",
+  "testStep": "[data-cy=test-step]",
+  "saveStep": "[data-cy=save-step]"
+}

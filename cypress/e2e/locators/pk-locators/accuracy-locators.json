@@ -1,0 +1,19 @@
+{
+  "accuracyPrecisionTab": "//label[normalize-space()='Accuracy and Precision']",
+  "totalErrorTest": "//a[normalize-space()='Total Errror Test']",
+  "addTotalErrorTest": "//button[normalize-space()='Add Total Error Result']",
+  "calculateTotalErrorTest": "//button[normalize-space()='Calculate Total Error']",
+  "resultName": ":nth-child(2) > :nth-child(1) > .form-control",
+  "resultComment": ":nth-child(2) > .form-control",
+  "approveIcon": "//i[@class='fas fa-user-check']",
+  "sensitivityTest": "//a[normalize-space()='Sensitivity Test']",
+  "precisionAndAcceptanceCriteriaTest": "//a[normalize-space()='Precision and Acceptance Criteria Test']",
+  "acceptPrecisionAndAcceptanceCriteriaTest": "//button[normalize-space()='Accept Precision and Acceptance Criteria']",
+  "precisionAndAcceptanceCriteriaTestTable": ".table-bordered",
+  "name": "td:nth-child(1)",
+  "intraAssayBias": "td:nth-child(2)",
+  "interAssayBias": "td:nth-child(3)",
+  "intraAssayCv": "td:nth-child(4)",
+  "interAssayCv": "td:nth-child(5)",
+  "totalError": "td:nth-child(6)"
+}

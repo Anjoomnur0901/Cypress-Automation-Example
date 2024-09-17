@@ -1,0 +1,6 @@
+{
+  "username": "input[name=\"id\"]",
+  "password": "input[name=\"password\"]",
+  "invalidAlert": "//div[@role='alert']",
+  "logoutButton": "//i[@class='fas fa-power-off']"
+}

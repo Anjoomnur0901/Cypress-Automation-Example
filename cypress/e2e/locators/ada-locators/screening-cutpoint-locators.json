@@ -1,0 +1,7 @@
+{
+  "navToScreeningCutpoint": "//label[normalize-space()='Screening Cutpoint']",
+  "ncEvTab": "//a[normalize-space()='NC Evaluation']",
+  "status_dropdown": "//select[@class='save-mode ng-star-inserted']",
+  "checkDataset1": "//label[normalize-space()='Dataset 1']//input[@type='checkbox']",
+  "floating_pont": "//label[2]"
+}

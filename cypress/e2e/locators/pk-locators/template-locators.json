@@ -1,0 +1,4 @@
+{
+  "templateDropdown": "//select[@class='form-control']",
+  "plateDiv": "//div[@class='plate ng-star-inserted']"
+}

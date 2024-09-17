@@ -1,0 +1,8 @@
+{
+  "stabilityTab": "//label[normalize-space()='Stability']",
+  "stabilityTest": "//a[normalize-space()='Stability Test']",
+  "StHpc": "//label[normalize-space()='ST_HPC']",
+  "StLpc": "//label[normalize-space()='ST_LPC']",
+  "FtHpc": "//label[normalize-space()='FT_HPC']",
+  "FtLpc": "//label[normalize-space()='FT_LPC']"
+}

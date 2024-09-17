@@ -1,0 +1,23 @@
+{
+  "calCurveAndQC": "//a[normalize-space()='Cal Curve and QC']",
+  "startDataExtrapolationBtn": "//button[normalize-space()='Start Data Extrapolation']",
+  "generateRegressionCurve": "//button[normalize-space()='Generate Regression Curve']",
+  "acceptCurveBtn": "//button[normalize-space()='Accept Curve']",
+  "Hpc": "//h4[normalize-space()='HPC (800)']",
+  "preAnalysisCurveTable": "//table[@id='pre-analyse-curve-table']",
+  "checkRegressionType": "//div[@class='edit-study-content']//label[1]//select",
+  "checkWeight": "//label[@class='ng-star-inserted']//select",
+  "calCurveResultsTable": "#pre-analyse-data-table",
+  "calID": "td:nth-child(2)",
+  "calMeanOD": "td:nth-child(6)",
+  "calCV": "td:nth-child(7)",
+  "calMeanConc": "td:nth-child(9)",
+  "calBias": "td:nth-child(10)",
+  "qualityControlResultsDiv": "div[class^='table-container']",
+  "qualityControlResultsTable": "#pre-analyse-data-table",
+  "qcID": "td:nth-child(2)",
+  "qcMeanOD": "td:nth-child(5)",
+  "qcCV": "td:nth-child(6)",
+  "qcMeanConc": "td:nth-child(8)",
+  "qcBias": "td:nth-child(9)"
+}

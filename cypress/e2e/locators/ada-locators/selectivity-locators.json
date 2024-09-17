@@ -1,0 +1,10 @@
+{
+  "selectivityTab": "//label[normalize-space()='Selectivity']",
+  "selectivityTest": "//a[normalize-space()='Selectivity Test']",
+  "pool": "//label[normalize-space()='Selectivity_Pool']",
+  "male": "//label[normalize-space()='Selectivity_Male']",
+  "female": "//label[normalize-space()='Selectivity_Female']",
+  "resultNameInput": "[data-cy=result-name-input",
+  "resultCommentTextarea": "[data-cy=result-comment-textarea]",
+  "finalSelectivityTab": "[data-cy=final-selectivity-tab]"
+}

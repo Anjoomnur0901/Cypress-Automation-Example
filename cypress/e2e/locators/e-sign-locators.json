@@ -1,0 +1,7 @@
+{
+  "eSignature": "[data-cy=e-signature]",
+  "pass": "//input[@id='null']",
+  "comment": "//textarea[@placeholder='I change the value from ... to ... because ...']",
+  "submit": "//button[normalize-space()='Submit']",
+  "esignModal": ".modal-body"
+}

@@ -1,0 +1,6 @@
+id,meanOD,cv,bias,expectedCon,meanConc,status
+SMP1,0.021 <LLOQ,3.449%,0.00%,0,< LLOQ,Pass
+SMP2,0.019 <LLOQ,0.000%,0.00%,0,< LLOQ,Pass
+SMP3,0.020 <LLOQ,3.626%,0.00%,0,< LLOQ,Pass
+SMP4,0.028 <LLOQ,0.000%,0.00%,0,< LLOQ,Pass
+SMP5,0.018 <LLOQ,0.000%,0.00%,0,< LLOQ,Pass

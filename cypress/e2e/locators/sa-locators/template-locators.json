@@ -1,0 +1,10 @@
+{
+  "calibratorRb": "//input[@value='Calibrator']",
+  "calibratorGroupTextField": ":nth-child(3) > .input-group > .form-control",
+  "qcRb": "app-labels-toolbox > :nth-child(1) > :nth-child(3)",
+  "qcLabel": ":nth-child(2) > .indexInput",
+  "groupNameTextArea": ":nth-child(3) > .input-group > .form-control",
+  "templateDropdown": "//select[@class='form-control']",
+  "templateTextarea": "td > .input-group > .form-control",
+  "saveTemplate": "td > .input-group > .input-group-append > .btn"
+}

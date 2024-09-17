@@ -1,0 +1,6103 @@
+{
+  "adaControlMap": [
+    {
+      "comment": "",
+      "con": 1000,
+      "key": "HPC1",
+      "labelKey": "HPC"
+    },
+    {
+      "comment": "",
+      "con": 500,
+      "key": "MPC1",
+      "labelKey": "MPC"
+    },
+    {
+      "comment": "",
+      "con": 100,
+      "key": "LPC1",
+      "labelKey": "LPC"
+    },
+    {
+      "comment": "",
+      "con": 100,
+      "key": "HIC1",
+      "labelKey": "HIC"
+    },
+    {
+      "comment": "",
+      "con": 50,
+      "key": "MIC1",
+      "labelKey": "MIC"
+    },
+    {
+      "comment": "",
+      "con": 10,
+      "key": "LIC1",
+      "labelKey": "LIC"
+    },
+    {
+      "comment": "",
+      "con": 10,
+      "key": "Neg1",
+      "labelKey": "Neg"
+    },
+    {
+      "comment": "",
+      "con": 0,
+      "key": "INE1",
+      "labelKey": "INE"
+    }
+  ],
+  "analyst": [
+    {
+      "fn": "A",
+      "ln": "A"
+    }
+  ],
+  "applyTiterInh": true,
+  "autoConvertAll": false,
+  "autoRemoveHighCV": false,
+  "cpSetting": [
+    {
+      "analyst": 2,
+      "bioOutFocus": "mean",
+      "coef": 0.6,
+      "controlEvalMethod": [
+        {
+          "c": "Neg",
+          "m": "median"
+        },
+        {
+          "c": "LPC",
+          "m": "mean"
+        },
+        {
+          "c": "MPC",
+          "m": "mean"
+        },
+        {
+          "c": "HPC",
+          "m": "mean"
+        }
+      ],
+      "controlEvalType": "NA",
+      "cpFocus": "median",
+      "cutpointType": "scp",
+      "datatype": "lr",
+      "ds": 6,
+      "lot": 51,
+      "negEval": "mean",
+      "overallPCCri": 67,
+      "parametricCri": {
+        "fp": 5,
+        "skewmax": 1,
+        "swcri": 0.05
+      },
+      "pcCri": 67,
+      "percentile": 95,
+      "swcri": 0.05
+    },
+    {
+      "analyst": 2,
+      "controlEvalType": "NA",
+      "cpFocus": "median",
+      "cutpointType": "ccp",
+      "datatype": "l",
+      "drugCon": 1000,
+      "ds": 6,
+      "inhCri": [
+        {
+          "c": "Neg",
+          "cri": 67
+        },
+        {
+          "c": "LPC",
+          "cri": 67
+        },
+        {
+          "c": "MPC",
+          "cri": 67
+        },
+        {
+          "c": "HPC",
+          "cri": 67
+        }
+      ],
+      "ipcCri": 67,
+      "lot": 51,
+      "overallInhCri": 67,
+      "overallPCCri": 67,
+      "parametricCri": {
+        "fp": 1,
+        "skewmax": 1,
+        "swcri": 0.05
+      },
+      "pcCri": 67,
+      "percentile": 99,
+      "swcri": 0.05
+    },
+    {
+      "cpFocus": "threshold",
+      "cutpointType": "tcp",
+      "percentile": 99
+    }
+  ],
+  "cvCriteria": [
+    {
+      "label": "HPC",
+      "val": 20
+    },
+    {
+      "label": "MPC",
+      "val": 20
+    },
+    {
+      "label": "LPC",
+      "val": 20
+    },
+    {
+      "label": "HIC",
+      "val": 20
+    },
+    {
+      "label": "MIC",
+      "val": 20
+    },
+    {
+      "label": "LIC",
+      "val": 20
+    },
+    {
+      "label": "Neg",
+      "val": 20
+    },
+    {
+      "label": "INE",
+      "val": 20
+    },
+    {
+      "label": "N-Smp",
+      "val": 20
+    },
+    {
+      "label": "I-Smp",
+      "val": 20
+    },
+    {
+      "label": "Sen",
+      "val": 20
+    },
+    {
+      "label": "ISN",
+      "val": 20
+    },
+    {
+      "label": "SEL",
+      "val": 20
+    },
+    {
+      "label": "ISE",
+      "val": 20
+    },
+    {
+      "label": "PRO",
+      "val": 20
+    },
+    {
+      "label": "IPR",
+      "val": 20
+    },
+    {
+      "label": "SPE",
+      "val": 20
+    },
+    {
+      "label": "ISP",
+      "val": 20
+    },
+    {
+      "label": "DTR",
+      "val": 20
+    },
+    {
+      "label": "STA",
+      "val": 20
+    }
+  ],
+  "drugToleranceMap": [
+    {
+      "comment": "",
+      "group": "Dru1",
+      "index": "a",
+      "lot": 2,
+      "passRate": 67
+    }
+  ],
+  "minPValAccept": [
+    {
+      "test": "One-Way Anova",
+      "val": 0.05
+    },
+    {
+      "test": "Levene",
+      "val": 0.05
+    }
+  ],
+  "minUnitAccept": [
+    {
+      "unit": "OD",
+      "val": 0.1
+    },
+    {
+      "unit": "ECL",
+      "val": 100
+    }
+  ],
+  "preacpRules": {
+    "iposGtCP": true,
+    "iposGtCPCri": 67,
+    "isLowtoHigh": true,
+    "passingCri": 67,
+    "posGtCP": true,
+    "posGtCPCri": 67
+  },
+  "preacpSetting": [
+    {
+      "control": "Neg",
+      "intercv": 20,
+      "lmethod": "none",
+      "umethod": "constant",
+      "upper": 1.5
+    },
+    {
+      "control": "LPC",
+      "intercv": 20,
+      "lmethod": "std",
+      "lower": 2,
+      "umethod": "std",
+      "upper": 2
+    },
+    {
+      "control": "LIC",
+      "intercv": 20,
+      "lmethod": "std",
+      "lower": 2,
+      "umethod": "std",
+      "upper": 2
+    },
+    {
+      "control": "MPC",
+      "intercv": 20,
+      "lmethod": "std",
+      "lower": 2,
+      "umethod": "std",
+      "upper": 2
+    },
+    {
+      "control": "HPC",
+      "intercv": 20,
+      "lmethod": "std",
+      "lower": 2,
+      "umethod": "std",
+      "upper": 2
+    },
+    {
+      "control": "HIC",
+      "intercv": 20,
+      "lmethod": "std",
+      "lower": 2,
+      "umethod": "std",
+      "upper": 2
+    }
+  ],
+  "preacpSourceControl": {
+    "useCCP": true,
+    "useSCP": true
+  },
+  "prozoneGroup": [
+    {
+      "comment": "",
+      "group": "Pro1",
+      "index": "a",
+      "passRate": 80
+    }
+  ],
+  "senGroup": [
+    {
+      "comment": "",
+      "group": "Sen1",
+      "index": "a",
+      "passRate": 80
+    }
+  ],
+  "specificCriMap": [
+    {
+      "comment": "",
+      "conList": [
+        {
+          "con": 0,
+          "cri": "neg"
+        }
+      ],
+      "cv": 25,
+      "group": "Specificity",
+      "index": "a",
+      "passRate": 80
+    }
+  ],
+  "spikeCriMap": [
+    {
+      "comment": "",
+      "conList": [
+        {
+          "con": 0,
+          "cri": "neg"
+        }
+      ],
+      "cv": 25,
+      "group": "Selectivity",
+      "index": "a",
+      "passRate": 80
+    }
+  ],
+  "staMap": [
+    {
+      "comment": "",
+      "duration": {
+        "day": 0,
+        "hour": 0,
+        "min": 0
+      },
+      "group": "Sta1",
+      "index": "a",
+      "temp": {
+        "unit": "C",
+        "val": 24
+      },
+      "type": "short"
+    }
+  ],
+  "templatePlate": [
+    {
+      "analysisType": "scp",
+      "controlCon": [
+        {
+          "con": 10,
+          "index": "Neg1"
+        },
+        {
+          "con": 0,
+          "index": "INE1"
+        },
+        {
+          "con": 100,
+          "index": "LPC1"
+        },
+        {
+          "con": 1000,
+          "index": "HPC1"
+        },
+        {
+          "con": 10,
+          "index": "LIC1"
+        },
+        {
+          "con": 500,
+          "index": "MPC1"
+        },
+        {
+          "con": 50,
+          "index": "MIC1"
+        },
+        {
+          "con": 100,
+          "index": "HIC1"
+        }
+      ],
+      "createBy": "Peter, Scott",
+      "group": [
+        {
+          "color": "#9297b6",
+          "coor": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            }
+          ],
+          "name": "NEG_1",
+          "type": "Neg"
+        },
+        {
+          "color": "#f4d796",
+          "coor": [
+            {
+              "x": 5,
+              "y": 10
+            },
+            {
+              "x": 5,
+              "y": 11
+            }
+          ],
+          "name": "NEG_2",
+          "type": "Neg"
+        },
+        {
+          "color": "#dacfc6",
+          "coor": [
+            {
+              "x": 6,
+              "y": 10
+            },
+            {
+              "x": 6,
+              "y": 11
+            }
+          ],
+          "name": "NEG_3",
+          "type": "Neg"
+        },
+        {
+          "color": "#fbe7e1",
+          "coor": [
+            {
+              "x": 7,
+              "y": 10
+            },
+            {
+              "x": 7,
+              "y": 11
+            }
+          ],
+          "name": "NEG_4",
+          "type": "Neg"
+        },
+        {
+          "color": "#bbc2fb",
+          "coor": [
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "name": "INE_1",
+          "type": "INE"
+        },
+        {
+          "color": "#b89bd8",
+          "coor": [
+            {
+              "x": 2,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 1
+            }
+          ],
+          "name": "LPC_1",
+          "type": "LPC"
+        },
+        {
+          "color": "#9e80f9",
+          "coor": [
+            {
+              "x": 4,
+              "y": 10
+            },
+            {
+              "x": 4,
+              "y": 11
+            }
+          ],
+          "name": "LPC_2",
+          "type": "LPC"
+        },
+        {
+          "color": "#f6e2f2",
+          "coor": [
+            {
+              "x": 3,
+              "y": 0
+            },
+            {
+              "x": 3,
+              "y": 1
+            }
+          ],
+          "name": "LIC_1",
+          "type": "LIC"
+        },
+        {
+          "color": "#e0d98e",
+          "coor": [
+            {
+              "x": 4,
+              "y": 0
+            },
+            {
+              "x": 4,
+              "y": 1
+            }
+          ],
+          "name": "MPC_1",
+          "type": "MPC"
+        },
+        {
+          "color": "#b1f3f0",
+          "coor": [
+            {
+              "x": 3,
+              "y": 10
+            },
+            {
+              "x": 3,
+              "y": 11
+            }
+          ],
+          "name": "MPC_2",
+          "type": "MPC"
+        },
+        {
+          "color": "#cebeef",
+          "coor": [
+            {
+              "x": 5,
+              "y": 0
+            },
+            {
+              "x": 5,
+              "y": 1
+            }
+          ],
+          "name": "MIC_1",
+          "type": "MIC"
+        },
+        {
+          "color": "#86e2b4",
+          "coor": [
+            {
+              "x": 6,
+              "y": 0
+            },
+            {
+              "x": 6,
+              "y": 1
+            }
+          ],
+          "name": "HPC_1",
+          "type": "HPC"
+        },
+        {
+          "color": "#f89ff6",
+          "coor": [
+            {
+              "x": 2,
+              "y": 10
+            },
+            {
+              "x": 2,
+              "y": 11
+            }
+          ],
+          "name": "HPC_2",
+          "type": "HPC"
+        },
+        {
+          "color": "#f595ea",
+          "coor": [
+            {
+              "x": 7,
+              "y": 0
+            },
+            {
+              "x": 7,
+              "y": 1
+            }
+          ],
+          "name": "HIC_1",
+          "type": "HIC"
+        },
+        {
+          "color": "#dbd9af",
+          "coor": [
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 0,
+              "y": 3
+            },
+            {
+              "x": 0,
+              "y": 4
+            },
+            {
+              "x": 0,
+              "y": 5
+            },
+            {
+              "x": 0,
+              "y": 6
+            },
+            {
+              "x": 0,
+              "y": 7
+            },
+            {
+              "x": 0,
+              "y": 8
+            },
+            {
+              "x": 0,
+              "y": 9
+            },
+            {
+              "x": 0,
+              "y": 10
+            },
+            {
+              "x": 0,
+              "y": 11
+            },
+            {
+              "x": 2,
+              "y": 2
+            },
+            {
+              "x": 2,
+              "y": 3
+            },
+            {
+              "x": 2,
+              "y": 4
+            },
+            {
+              "x": 2,
+              "y": 5
+            },
+            {
+              "x": 2,
+              "y": 6
+            },
+            {
+              "x": 2,
+              "y": 7
+            },
+            {
+              "x": 2,
+              "y": 8
+            },
+            {
+              "x": 2,
+              "y": 9
+            },
+            {
+              "x": 4,
+              "y": 2
+            },
+            {
+              "x": 4,
+              "y": 3
+            },
+            {
+              "x": 4,
+              "y": 4
+            },
+            {
+              "x": 4,
+              "y": 5
+            },
+            {
+              "x": 4,
+              "y": 6
+            },
+            {
+              "x": 4,
+              "y": 7
+            },
+            {
+              "x": 4,
+              "y": 8
+            },
+            {
+              "x": 4,
+              "y": 9
+            },
+            {
+              "x": 6,
+              "y": 2
+            },
+            {
+              "x": 6,
+              "y": 3
+            },
+            {
+              "x": 6,
+              "y": 4
+            },
+            {
+              "x": 6,
+              "y": 5
+            },
+            {
+              "x": 6,
+              "y": 6
+            },
+            {
+              "x": 6,
+              "y": 7
+            },
+            {
+              "x": 6,
+              "y": 8
+            },
+            {
+              "x": 6,
+              "y": 9
+            }
+          ],
+          "name": "NAI_1",
+          "type": "N-Smp"
+        },
+        {
+          "color": "#a1e8a4",
+          "coor": [
+            {
+              "x": 1,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 3
+            },
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 1,
+              "y": 5
+            },
+            {
+              "x": 1,
+              "y": 6
+            },
+            {
+              "x": 1,
+              "y": 7
+            },
+            {
+              "x": 1,
+              "y": 8
+            },
+            {
+              "x": 1,
+              "y": 9
+            },
+            {
+              "x": 1,
+              "y": 10
+            },
+            {
+              "x": 1,
+              "y": 11
+            },
+            {
+              "x": 3,
+              "y": 2
+            },
+            {
+              "x": 3,
+              "y": 3
+            },
+            {
+              "x": 3,
+              "y": 4
+            },
+            {
+              "x": 3,
+              "y": 5
+            },
+            {
+              "x": 3,
+              "y": 6
+            },
+            {
+              "x": 3,
+              "y": 7
+            },
+            {
+              "x": 3,
+              "y": 8
+            },
+            {
+              "x": 3,
+              "y": 9
+            },
+            {
+              "x": 5,
+              "y": 2
+            },
+            {
+              "x": 5,
+              "y": 3
+            },
+            {
+              "x": 5,
+              "y": 4
+            },
+            {
+              "x": 5,
+              "y": 5
+            },
+            {
+              "x": 5,
+              "y": 6
+            },
+            {
+              "x": 5,
+              "y": 7
+            },
+            {
+              "x": 5,
+              "y": 8
+            },
+            {
+              "x": 5,
+              "y": 9
+            },
+            {
+              "x": 7,
+              "y": 2
+            },
+            {
+              "x": 7,
+              "y": 3
+            },
+            {
+              "x": 7,
+              "y": 4
+            },
+            {
+              "x": 7,
+              "y": 5
+            },
+            {
+              "x": 7,
+              "y": 6
+            },
+            {
+              "x": 7,
+              "y": 7
+            },
+            {
+              "x": 7,
+              "y": 8
+            },
+            {
+              "x": 7,
+              "y": 9
+            }
+          ],
+          "name": "INH_1",
+          "type": "I-Smp"
+        }
+      ],
+      "label": [
+        [
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 5",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 5",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 9",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 9",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 13",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 13",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 17",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 17",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 5",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 5",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 9",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 9",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 13",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 13",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 17",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 17",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 2",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 2",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 6",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 6",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 10",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 10",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 14",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 14",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#caeeea",
+            "comment": "",
+            "index": "LIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LIC",
+            "name": "Low Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#caeeea",
+            "comment": "",
+            "index": "LIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LIC",
+            "name": "Low Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 2",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 2",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 6",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 6",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 10",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 10",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 14",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 14",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 3",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 3",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 7",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 7",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 11",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 11",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 15",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 15",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#8ad7d0",
+            "comment": "",
+            "index": "MIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MIC",
+            "name": "Middle Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#8ad7d0",
+            "comment": "",
+            "index": "MIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MIC",
+            "name": "Middle Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 3",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 3",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 7",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 7",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 11",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 11",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 15",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 15",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 4",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 4",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 8",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 8",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 12",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 12",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 16",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 16",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#4fc9be",
+            "comment": "",
+            "index": "HIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HIC",
+            "name": "High Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#4fc9be",
+            "comment": "",
+            "index": "HIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HIC",
+            "name": "High Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 4",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 4",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 8",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 8",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 12",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 12",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 16",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 16",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          }
+        ]
+      ],
+      "modifyDate": "Wed Jul 29 2020",
+      "name": "Template 1"
+    },
+    {
+      "analysisType": "scp",
+      "controlCon": [
+        {
+          "con": 10,
+          "index": "Neg1"
+        },
+        {
+          "con": 0,
+          "index": "INE1"
+        },
+        {
+          "con": 100,
+          "index": "LPC1"
+        },
+        {
+          "con": 1000,
+          "index": "HPC1"
+        },
+        {
+          "con": 10,
+          "index": "LIC1"
+        },
+        {
+          "con": 500,
+          "index": "MPC1"
+        },
+        {
+          "con": 50,
+          "index": "MIC1"
+        },
+        {
+          "con": 100,
+          "index": "HIC1"
+        }
+      ],
+      "createBy": "Peter, Scott",
+      "group": [
+        {
+          "color": "#9bffae",
+          "coor": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            }
+          ],
+          "name": "NEG_1",
+          "type": "Neg"
+        },
+        {
+          "color": "#b9abac",
+          "coor": [
+            {
+              "x": 5,
+              "y": 10
+            },
+            {
+              "x": 5,
+              "y": 11
+            }
+          ],
+          "name": "NEG_2",
+          "type": "Neg"
+        },
+        {
+          "color": "#d69492",
+          "coor": [
+            {
+              "x": 6,
+              "y": 10
+            },
+            {
+              "x": 6,
+              "y": 11
+            }
+          ],
+          "name": "NEG_3",
+          "type": "Neg"
+        },
+        {
+          "color": "#cfeff9",
+          "coor": [
+            {
+              "x": 7,
+              "y": 10
+            },
+            {
+              "x": 7,
+              "y": 11
+            }
+          ],
+          "name": "NEG_4",
+          "type": "Neg"
+        },
+        {
+          "color": "#ab80af",
+          "coor": [
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "name": "INE_1",
+          "type": "INE"
+        },
+        {
+          "color": "#fa8289",
+          "coor": [
+            {
+              "x": 2,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 1
+            }
+          ],
+          "name": "LPC_1",
+          "type": "LPC"
+        },
+        {
+          "color": "#d8d0cd",
+          "coor": [
+            {
+              "x": 3,
+              "y": 0
+            },
+            {
+              "x": 3,
+              "y": 1
+            }
+          ],
+          "name": "LIC_1",
+          "type": "LIC"
+        },
+        {
+          "color": "#9cfab9",
+          "coor": [
+            {
+              "x": 4,
+              "y": 0
+            },
+            {
+              "x": 4,
+              "y": 1
+            }
+          ],
+          "name": "MPC_1",
+          "type": "MPC"
+        },
+        {
+          "color": "#b2d98c",
+          "coor": [
+            {
+              "x": 5,
+              "y": 0
+            },
+            {
+              "x": 5,
+              "y": 1
+            }
+          ],
+          "name": "MIC_1",
+          "type": "MIC"
+        },
+        {
+          "color": "#9bd6bf",
+          "coor": [
+            {
+              "x": 6,
+              "y": 0
+            },
+            {
+              "x": 6,
+              "y": 1
+            }
+          ],
+          "name": "HPC_1",
+          "type": "HPC"
+        },
+        {
+          "color": "#9783e5",
+          "coor": [
+            {
+              "x": 7,
+              "y": 0
+            },
+            {
+              "x": 7,
+              "y": 1
+            }
+          ],
+          "name": "HIC_1",
+          "type": "HIC"
+        },
+        {
+          "color": "#fefbcf",
+          "coor": [
+            {
+              "x": 2,
+              "y": 10
+            },
+            {
+              "x": 2,
+              "y": 11
+            }
+          ],
+          "name": "HPC_2",
+          "type": "HPC"
+        },
+        {
+          "color": "#d7edea",
+          "coor": [
+            {
+              "x": 3,
+              "y": 10
+            },
+            {
+              "x": 3,
+              "y": 11
+            }
+          ],
+          "name": "MPC_2",
+          "type": "MPC"
+        },
+        {
+          "color": "#a3bcad",
+          "coor": [
+            {
+              "x": 4,
+              "y": 10
+            },
+            {
+              "x": 4,
+              "y": 11
+            }
+          ],
+          "name": "LPC_2",
+          "type": "LPC"
+        },
+        {
+          "color": "#fd8ace",
+          "coor": [
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 0,
+              "y": 3
+            },
+            {
+              "x": 0,
+              "y": 4
+            },
+            {
+              "x": 0,
+              "y": 5
+            },
+            {
+              "x": 0,
+              "y": 6
+            },
+            {
+              "x": 0,
+              "y": 7
+            },
+            {
+              "x": 0,
+              "y": 8
+            },
+            {
+              "x": 0,
+              "y": 9
+            },
+            {
+              "x": 0,
+              "y": 10
+            },
+            {
+              "x": 0,
+              "y": 11
+            },
+            {
+              "x": 2,
+              "y": 2
+            },
+            {
+              "x": 2,
+              "y": 3
+            },
+            {
+              "x": 2,
+              "y": 4
+            },
+            {
+              "x": 2,
+              "y": 5
+            },
+            {
+              "x": 2,
+              "y": 6
+            },
+            {
+              "x": 2,
+              "y": 7
+            },
+            {
+              "x": 2,
+              "y": 8
+            },
+            {
+              "x": 2,
+              "y": 9
+            },
+            {
+              "x": 4,
+              "y": 2
+            },
+            {
+              "x": 4,
+              "y": 3
+            },
+            {
+              "x": 4,
+              "y": 4
+            },
+            {
+              "x": 4,
+              "y": 5
+            },
+            {
+              "x": 4,
+              "y": 6
+            },
+            {
+              "x": 4,
+              "y": 7
+            },
+            {
+              "x": 4,
+              "y": 8
+            },
+            {
+              "x": 4,
+              "y": 9
+            },
+            {
+              "x": 6,
+              "y": 2
+            },
+            {
+              "x": 6,
+              "y": 3
+            },
+            {
+              "x": 6,
+              "y": 4
+            },
+            {
+              "x": 6,
+              "y": 5
+            },
+            {
+              "x": 6,
+              "y": 6
+            },
+            {
+              "x": 6,
+              "y": 7
+            },
+            {
+              "x": 6,
+              "y": 8
+            },
+            {
+              "x": 6,
+              "y": 9
+            }
+          ],
+          "name": "NAI_1",
+          "type": "N-Smp"
+        },
+        {
+          "color": "#f3c4da",
+          "coor": [
+            {
+              "x": 1,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 3
+            },
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 1,
+              "y": 5
+            },
+            {
+              "x": 1,
+              "y": 6
+            },
+            {
+              "x": 1,
+              "y": 7
+            },
+            {
+              "x": 1,
+              "y": 8
+            },
+            {
+              "x": 1,
+              "y": 9
+            },
+            {
+              "x": 1,
+              "y": 10
+            },
+            {
+              "x": 1,
+              "y": 11
+            },
+            {
+              "x": 3,
+              "y": 2
+            },
+            {
+              "x": 3,
+              "y": 3
+            },
+            {
+              "x": 3,
+              "y": 4
+            },
+            {
+              "x": 3,
+              "y": 5
+            },
+            {
+              "x": 3,
+              "y": 6
+            },
+            {
+              "x": 3,
+              "y": 7
+            },
+            {
+              "x": 3,
+              "y": 8
+            },
+            {
+              "x": 3,
+              "y": 9
+            },
+            {
+              "x": 5,
+              "y": 2
+            },
+            {
+              "x": 5,
+              "y": 3
+            },
+            {
+              "x": 5,
+              "y": 4
+            },
+            {
+              "x": 5,
+              "y": 5
+            },
+            {
+              "x": 5,
+              "y": 6
+            },
+            {
+              "x": 5,
+              "y": 7
+            },
+            {
+              "x": 5,
+              "y": 8
+            },
+            {
+              "x": 5,
+              "y": 9
+            },
+            {
+              "x": 7,
+              "y": 2
+            },
+            {
+              "x": 7,
+              "y": 3
+            },
+            {
+              "x": 7,
+              "y": 4
+            },
+            {
+              "x": 7,
+              "y": 5
+            },
+            {
+              "x": 7,
+              "y": 6
+            },
+            {
+              "x": 7,
+              "y": 7
+            },
+            {
+              "x": 7,
+              "y": 8
+            },
+            {
+              "x": 7,
+              "y": 9
+            }
+          ],
+          "name": "INH_1",
+          "type": "I-Smp"
+        }
+      ],
+      "label": [
+        [
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 18",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 18",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 22",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 22",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 26",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 26",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 30",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 30",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 34",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 34",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 18",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 18",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 22",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 22",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 26",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 26",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 30",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 30",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 34",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 34",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 19",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 19",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 23",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 23",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 27",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 27",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 31",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 31",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#caeeea",
+            "comment": "",
+            "index": "LIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LIC",
+            "name": "Low Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#caeeea",
+            "comment": "",
+            "index": "LIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LIC",
+            "name": "Low Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 19",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 19",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 23",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 23",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 27",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 27",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 31",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 31",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 20",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 20",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 24",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 24",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 28",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 28",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 32",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 32",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#8ad7d0",
+            "comment": "",
+            "index": "MIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MIC",
+            "name": "Middle Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#8ad7d0",
+            "comment": "",
+            "index": "MIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MIC",
+            "name": "Middle Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 20",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 20",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 24",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 24",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 28",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 28",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 32",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 32",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 21",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 21",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 25",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 25",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 29",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 29",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 33",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 33",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#4fc9be",
+            "comment": "",
+            "index": "HIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HIC",
+            "name": "High Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#4fc9be",
+            "comment": "",
+            "index": "HIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HIC",
+            "name": "High Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 21",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 21",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 25",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 25",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 29",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 29",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 33",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 33",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          }
+        ]
+      ],
+      "modifyDate": "Wed Jul 29 2020",
+      "name": "Template 2"
+    },
+    {
+      "analysisType": "scp",
+      "controlCon": [
+        {
+          "con": 10,
+          "index": "Neg1"
+        },
+        {
+          "con": 0,
+          "index": "INE1"
+        },
+        {
+          "con": 100,
+          "index": "LPC1"
+        },
+        {
+          "con": 1000,
+          "index": "HPC1"
+        },
+        {
+          "con": 10,
+          "index": "LIC1"
+        },
+        {
+          "con": 500,
+          "index": "MPC1"
+        },
+        {
+          "con": 50,
+          "index": "MIC1"
+        },
+        {
+          "con": 100,
+          "index": "HIC1"
+        }
+      ],
+      "createBy": "Peter, Scott",
+      "group": [
+        {
+          "color": "#bd82fa",
+          "coor": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            }
+          ],
+          "name": "NEG_1",
+          "type": "Neg"
+        },
+        {
+          "color": "#d7d0f8",
+          "coor": [
+            {
+              "x": 5,
+              "y": 10
+            },
+            {
+              "x": 5,
+              "y": 11
+            }
+          ],
+          "name": "NEG_2",
+          "type": "Neg"
+        },
+        {
+          "color": "#b3a397",
+          "coor": [
+            {
+              "x": 6,
+              "y": 10
+            },
+            {
+              "x": 6,
+              "y": 11
+            }
+          ],
+          "name": "NEG_3",
+          "type": "Neg"
+        },
+        {
+          "color": "#9598ae",
+          "coor": [
+            {
+              "x": 7,
+              "y": 10
+            },
+            {
+              "x": 7,
+              "y": 11
+            }
+          ],
+          "name": "NEG_4",
+          "type": "Neg"
+        },
+        {
+          "color": "#d9968a",
+          "coor": [
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "name": "INE_1",
+          "type": "INE"
+        },
+        {
+          "color": "#8da7ba",
+          "coor": [
+            {
+              "x": 2,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 1
+            }
+          ],
+          "name": "LPC_1",
+          "type": "LPC"
+        },
+        {
+          "color": "#83f380",
+          "coor": [
+            {
+              "x": 3,
+              "y": 0
+            },
+            {
+              "x": 3,
+              "y": 1
+            }
+          ],
+          "name": "LIC_1",
+          "type": "LIC"
+        },
+        {
+          "color": "#c9c8f2",
+          "coor": [
+            {
+              "x": 4,
+              "y": 0
+            },
+            {
+              "x": 4,
+              "y": 1
+            }
+          ],
+          "name": "MPC_1",
+          "type": "MPC"
+        },
+        {
+          "color": "#b8d5d3",
+          "coor": [
+            {
+              "x": 5,
+              "y": 0
+            },
+            {
+              "x": 5,
+              "y": 1
+            }
+          ],
+          "name": "MIC_1",
+          "type": "MIC"
+        },
+        {
+          "color": "#c5a5d6",
+          "coor": [
+            {
+              "x": 6,
+              "y": 0
+            },
+            {
+              "x": 6,
+              "y": 1
+            }
+          ],
+          "name": "HPC_1",
+          "type": "HPC"
+        },
+        {
+          "color": "#a290f0",
+          "coor": [
+            {
+              "x": 7,
+              "y": 0
+            },
+            {
+              "x": 7,
+              "y": 1
+            }
+          ],
+          "name": "HIC_1",
+          "type": "HIC"
+        },
+        {
+          "color": "#e7cada",
+          "coor": [
+            {
+              "x": 2,
+              "y": 10
+            },
+            {
+              "x": 2,
+              "y": 11
+            }
+          ],
+          "name": "HPC_2",
+          "type": "HPC"
+        },
+        {
+          "color": "#dcbdf8",
+          "coor": [
+            {
+              "x": 3,
+              "y": 10
+            },
+            {
+              "x": 3,
+              "y": 11
+            }
+          ],
+          "name": "MPC_2",
+          "type": "MPC"
+        },
+        {
+          "color": "#a697b6",
+          "coor": [
+            {
+              "x": 4,
+              "y": 10
+            },
+            {
+              "x": 4,
+              "y": 11
+            }
+          ],
+          "name": "LPC_2",
+          "type": "LPC"
+        },
+        {
+          "color": "#fc83ea",
+          "coor": [
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 0,
+              "y": 3
+            },
+            {
+              "x": 0,
+              "y": 4
+            },
+            {
+              "x": 0,
+              "y": 5
+            },
+            {
+              "x": 0,
+              "y": 6
+            },
+            {
+              "x": 0,
+              "y": 7
+            },
+            {
+              "x": 0,
+              "y": 8
+            },
+            {
+              "x": 0,
+              "y": 9
+            },
+            {
+              "x": 0,
+              "y": 10
+            },
+            {
+              "x": 0,
+              "y": 11
+            },
+            {
+              "x": 2,
+              "y": 2
+            },
+            {
+              "x": 2,
+              "y": 3
+            },
+            {
+              "x": 2,
+              "y": 4
+            },
+            {
+              "x": 2,
+              "y": 5
+            },
+            {
+              "x": 2,
+              "y": 6
+            },
+            {
+              "x": 2,
+              "y": 7
+            },
+            {
+              "x": 2,
+              "y": 8
+            },
+            {
+              "x": 2,
+              "y": 9
+            },
+            {
+              "x": 4,
+              "y": 2
+            },
+            {
+              "x": 4,
+              "y": 3
+            },
+            {
+              "x": 4,
+              "y": 4
+            },
+            {
+              "x": 4,
+              "y": 5
+            },
+            {
+              "x": 4,
+              "y": 6
+            },
+            {
+              "x": 4,
+              "y": 7
+            },
+            {
+              "x": 4,
+              "y": 8
+            },
+            {
+              "x": 4,
+              "y": 9
+            },
+            {
+              "x": 6,
+              "y": 2
+            },
+            {
+              "x": 6,
+              "y": 3
+            },
+            {
+              "x": 6,
+              "y": 4
+            },
+            {
+              "x": 6,
+              "y": 5
+            },
+            {
+              "x": 6,
+              "y": 6
+            },
+            {
+              "x": 6,
+              "y": 7
+            },
+            {
+              "x": 6,
+              "y": 8
+            },
+            {
+              "x": 6,
+              "y": 9
+            }
+          ],
+          "name": "NAI_1",
+          "type": "N-Smp"
+        },
+        {
+          "color": "#e689dc",
+          "coor": [
+            {
+              "x": 1,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 3
+            },
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 1,
+              "y": 5
+            },
+            {
+              "x": 1,
+              "y": 6
+            },
+            {
+              "x": 1,
+              "y": 7
+            },
+            {
+              "x": 1,
+              "y": 8
+            },
+            {
+              "x": 1,
+              "y": 9
+            },
+            {
+              "x": 1,
+              "y": 10
+            },
+            {
+              "x": 1,
+              "y": 11
+            },
+            {
+              "x": 3,
+              "y": 2
+            },
+            {
+              "x": 3,
+              "y": 3
+            },
+            {
+              "x": 3,
+              "y": 4
+            },
+            {
+              "x": 3,
+              "y": 5
+            },
+            {
+              "x": 3,
+              "y": 6
+            },
+            {
+              "x": 3,
+              "y": 7
+            },
+            {
+              "x": 3,
+              "y": 8
+            },
+            {
+              "x": 3,
+              "y": 9
+            },
+            {
+              "x": 5,
+              "y": 2
+            },
+            {
+              "x": 5,
+              "y": 3
+            },
+            {
+              "x": 5,
+              "y": 4
+            },
+            {
+              "x": 5,
+              "y": 5
+            },
+            {
+              "x": 5,
+              "y": 6
+            },
+            {
+              "x": 5,
+              "y": 7
+            },
+            {
+              "x": 5,
+              "y": 8
+            },
+            {
+              "x": 5,
+              "y": 9
+            },
+            {
+              "x": 7,
+              "y": 2
+            },
+            {
+              "x": 7,
+              "y": 3
+            },
+            {
+              "x": 7,
+              "y": 4
+            },
+            {
+              "x": 7,
+              "y": 5
+            },
+            {
+              "x": 7,
+              "y": 6
+            },
+            {
+              "x": 7,
+              "y": 7
+            },
+            {
+              "x": 7,
+              "y": 8
+            },
+            {
+              "x": 7,
+              "y": 9
+            }
+          ],
+          "name": "INH_1",
+          "type": "I-Smp"
+        }
+      ],
+      "label": [
+        [
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 35",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 35",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 39",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 39",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 43",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 43",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 47",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 47",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 51",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 51",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 35",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 35",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 39",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 39",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 43",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 43",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 47",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 47",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 51",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 51",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 36",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 36",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 40",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 40",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 44",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 44",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 48",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 48",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#caeeea",
+            "comment": "",
+            "index": "LIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LIC",
+            "name": "Low Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#caeeea",
+            "comment": "",
+            "index": "LIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LIC",
+            "name": "Low Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 36",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 36",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 40",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 40",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 44",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 44",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 48",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 48",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 37",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 37",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 41",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 41",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 45",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 45",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 49",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 49",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#8ad7d0",
+            "comment": "",
+            "index": "MIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MIC",
+            "name": "Middle Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#8ad7d0",
+            "comment": "",
+            "index": "MIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MIC",
+            "name": "Middle Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 37",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 37",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 41",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 41",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 45",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 45",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 49",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 49",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 38",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 38",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 42",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 42",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 46",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 46",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 50",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "HP 50",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#4fc9be",
+            "comment": "",
+            "index": "HIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HIC",
+            "name": "High Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#4fc9be",
+            "comment": "",
+            "index": "HIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HIC",
+            "name": "High Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 38",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 38",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 42",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 42",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 46",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 46",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 50",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "#d8f0eb",
+            "comment": "",
+            "index": "HP 50",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "I-Smp",
+            "name": "Inhibited Sample",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          }
+        ]
+      ],
+      "modifyDate": "Wed Jul 29 2020",
+      "name": "Template 3"
+    }
+  ],
+  "titerGroup": [
+    {
+      "comment": "",
+      "group": "Titer1",
+      "index": "a",
+      "label": [
+        {
+          "con": 100,
+          "cvCri": 20,
+          "factor": 1,
+          "key": "aTSM1",
+          "labelKey": "TSM",
+          "rep": 3
+        }
+      ],
+      "qcCon": 100,
+      "qcType": "LPC1"
+    }
+  ],
+  "useSCPplateForCCP": true
+}

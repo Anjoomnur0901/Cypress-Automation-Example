@@ -1,0 +1,17 @@
+{
+  "sampleAnalysisSideNav": "//label[normalize-space()='Sample Analysis']",
+  "sampleResultSaLevel": "//a[normalize-space()='Sample Result']",
+  "dataset1": ".datasetTab",
+  "sampleRb": "//div[@class='edit-study-content']//label[4]",
+  "autoSelectBtn": "//button[normalize-space()='Auto Select']",
+  "assignBtn": "//button[normalize-space()='Assign']",
+  "selectSampleBtn": "//button[normalize-space()='Select Sample']",
+  "gen5Btn": "//label[normalize-space()='Import .xlsx GEN-5 Plate Reader']",
+  "dataStartAtColumnInput": "//modal-container[@role='dialog']//tr[3]//td[2]//input",
+  "chooseFile": "//input[@value='Load .xlsx']",
+  "allCheck": "//label[normalize-space()='All']",
+  "notTested": "//label[normalize-space()='Not Tested']",
+  "applyFilter": "//button[normalize-space()='Apply Filter']",
+  "descending": "//a[normalize-space()='Descending']",
+  "previous": "//a[normalize-space()='Previous']"
+}

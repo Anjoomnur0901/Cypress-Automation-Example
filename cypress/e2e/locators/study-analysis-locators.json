@@ -1,0 +1,6 @@
+{
+  "left_side_config_section": "//label[normalize-space()='Configuration']",
+  "comment": "//textarea[@placeholder='I change the value from ... to ... because ...']",
+  "program_navigiate_from_top": "//a[normalize-space()='Aegyris 3.5.0 test program",
+  "ReuseCheckbox": "//input[@type='checkbox']"
+}

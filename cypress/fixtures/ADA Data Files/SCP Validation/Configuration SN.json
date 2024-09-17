@@ -1,0 +1,2295 @@
+{
+  "templatePlate": [
+    {
+      "name": "S859-876",
+      "label": [
+        [
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223859",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223859",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223860",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223860",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223861",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223861",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223862",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223862",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223863",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223863",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223864",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223864",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223865",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223865",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223866",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223866",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223867",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223867",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223868",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223868",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223869",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223869",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223870",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223870",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223871",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223871",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223872",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223872",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223873",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223873",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223874",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223874",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223875",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223875",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223876",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          },
+          {
+            "color": "lightgray",
+            "comment": "",
+            "index": "CYN223876",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "N-Smp",
+            "name": "Naive Sample",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#4fabc9",
+            "comment": "",
+            "index": "HPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HPC",
+            "name": "High Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#4fc9be",
+            "comment": "",
+            "index": "HIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HIC",
+            "name": "High Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#4fc9be",
+            "comment": "",
+            "index": "HIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "HIC",
+            "name": "High Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "lightblue",
+            "comment": "",
+            "index": "MPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MPC",
+            "name": "Middle Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#8ad7d0",
+            "comment": "",
+            "index": "MIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MIC",
+            "name": "Middle Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#8ad7d0",
+            "comment": "",
+            "index": "MIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "MIC",
+            "name": "Middle Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#ebf5f9",
+            "comment": "",
+            "index": "LPC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LPC",
+            "name": "Low Positive Control",
+            "value": 0
+          },
+          {
+            "color": "#caeeea",
+            "comment": "",
+            "index": "LIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LIC",
+            "name": "Low Inhibited Control",
+            "value": 0
+          },
+          {
+            "color": "#caeeea",
+            "comment": "",
+            "index": "LIC1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": true,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "LIC",
+            "name": "Low Inhibited Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "pink",
+            "comment": "",
+            "index": "Neg1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Neg",
+            "name": "Negative Control",
+            "value": 0
+          },
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          },
+          {
+            "color": "orange",
+            "comment": "",
+            "index": "INE1",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "INE",
+            "name": "Inhibited Negative Control",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          },
+          {
+            "color": "ghostwhite",
+            "comment": "",
+            "index": "",
+            "isAnaOut": false,
+            "isBioOut": false,
+            "isCVEx": false,
+            "isInh": false,
+            "isUserEx": false,
+            "isexclude": false,
+            "key": "Blk",
+            "name": "Blank",
+            "value": 0
+          }
+        ]
+      ],
+      "group": [
+        {
+          "color": "#d5f5c8",
+          "coor": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 0,
+              "y": 3
+            },
+            {
+              "x": 0,
+              "y": 4
+            },
+            {
+              "x": 0,
+              "y": 5
+            },
+            {
+              "x": 0,
+              "y": 6
+            },
+            {
+              "x": 0,
+              "y": 7
+            },
+            {
+              "x": 0,
+              "y": 8
+            },
+            {
+              "x": 0,
+              "y": 9
+            },
+            {
+              "x": 0,
+              "y": 10
+            },
+            {
+              "x": 0,
+              "y": 11
+            },
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 3
+            },
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 1,
+              "y": 5
+            },
+            {
+              "x": 1,
+              "y": 6
+            },
+            {
+              "x": 1,
+              "y": 7
+            },
+            {
+              "x": 1,
+              "y": 8
+            },
+            {
+              "x": 1,
+              "y": 9
+            },
+            {
+              "x": 1,
+              "y": 10
+            },
+            {
+              "x": 1,
+              "y": 11
+            },
+            {
+              "x": 2,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 1
+            },
+            {
+              "x": 2,
+              "y": 2
+            },
+            {
+              "x": 2,
+              "y": 3
+            },
+            {
+              "x": 2,
+              "y": 4
+            },
+            {
+              "x": 2,
+              "y": 5
+            },
+            {
+              "x": 2,
+              "y": 6
+            },
+            {
+              "x": 2,
+              "y": 7
+            },
+            {
+              "x": 2,
+              "y": 8
+            },
+            {
+              "x": 2,
+              "y": 9
+            },
+            {
+              "x": 2,
+              "y": 10
+            },
+            {
+              "x": 2,
+              "y": 11
+            }
+          ],
+          "name": "NAI_sample",
+          "type": "N-Smp"
+        },
+        {
+          "color": "#b8c384",
+          "coor": [
+            {
+              "x": 3,
+              "y": 0
+            },
+            {
+              "x": 3,
+              "y": 1
+            }
+          ],
+          "name": "HPC_control",
+          "type": "HPC"
+        },
+        {
+          "color": "#8599c7",
+          "coor": [
+            {
+              "x": 3,
+              "y": 2
+            },
+            {
+              "x": 3,
+              "y": 3
+            }
+          ],
+          "name": "HIC_control",
+          "type": "HIC"
+        },
+        {
+          "color": "#c5beae",
+          "coor": [
+            {
+              "x": 3,
+              "y": 4
+            },
+            {
+              "x": 3,
+              "y": 5
+            }
+          ],
+          "name": "MPC_control",
+          "type": "MPC"
+        },
+        {
+          "color": "#a9b88d",
+          "coor": [
+            {
+              "x": 3,
+              "y": 6
+            },
+            {
+              "x": 3,
+              "y": 7
+            }
+          ],
+          "name": "MIC_control",
+          "type": "MIC"
+        },
+        {
+          "color": "#9ddcfc",
+          "coor": [
+            {
+              "x": 3,
+              "y": 8
+            },
+            {
+              "x": 3,
+              "y": 9
+            }
+          ],
+          "name": "LPC_control",
+          "type": "LPC"
+        },
+        {
+          "color": "#b1c9dd",
+          "coor": [
+            {
+              "x": 3,
+              "y": 10
+            },
+            {
+              "x": 3,
+              "y": 11
+            }
+          ],
+          "name": "LIC_control",
+          "type": "LIC"
+        },
+        {
+          "color": "#a286c9",
+          "coor": [
+            {
+              "x": 4,
+              "y": 0
+            },
+            {
+              "x": 4,
+              "y": 1
+            }
+          ],
+          "name": "NEG_control1",
+          "type": "Neg"
+        },
+        {
+          "color": "#ebe4e4",
+          "coor": [
+            {
+              "x": 4,
+              "y": 4
+            },
+            {
+              "x": 4,
+              "y": 5
+            }
+          ],
+          "name": "NEG_control2",
+          "type": "Neg"
+        },
+        {
+          "color": "#e5f184",
+          "coor": [
+            {
+              "x": 4,
+              "y": 8
+            },
+            {
+              "x": 4,
+              "y": 9
+            }
+          ],
+          "name": "NEG_control3",
+          "type": "Neg"
+        },
+        {
+          "color": "#81b18f",
+          "coor": [
+            {
+              "x": 4,
+              "y": 2
+            },
+            {
+              "x": 4,
+              "y": 3
+            }
+          ],
+          "name": "INE_control1",
+          "type": "INE"
+        },
+        {
+          "color": "#f5c1bf",
+          "coor": [
+            {
+              "x": 4,
+              "y": 6
+            },
+            {
+              "x": 4,
+              "y": 7
+            }
+          ],
+          "name": "INE_control2",
+          "type": "INE"
+        },
+        {
+          "color": "#cd9adf",
+          "coor": [
+            {
+              "x": 4,
+              "y": 10
+            },
+            {
+              "x": 4,
+              "y": 11
+            }
+          ],
+          "name": "INE_control3",
+          "type": "INE"
+        }
+      ],
+      "modifyDate": "Tue Feb 18 2020",
+      "createBy": "Truong, Ivy",
+      "analysisType": "scp",
+      "controlCon": [
+        {
+          "con": "940",
+          "index": "HPC1"
+        },
+        {
+          "con": "940",
+          "index": "HIC1"
+        },
+        {
+          "con": "760",
+          "index": "MPC1"
+        },
+        {
+          "con": "760",
+          "index": "MIC1"
+        },
+        {
+          "con": 100,
+          "index": "LPC1"
+        },
+        {
+          "con": "100",
+          "index": "LIC1"
+        },
+        {
+          "con": "0",
+          "index": "Neg1"
+        },
+        {
+          "con": 0,
+          "index": "INE1"
+        }
+      ]
+    }
+  ],
+  "cvCriteria": [
+    {
+      "label": "HPC",
+      "val": 20
+    },
+    {
+      "label": "MPC",
+      "val": 20
+    },
+    {
+      "label": "LPC",
+      "val": 20
+    },
+    {
+      "label": "HIC",
+      "val": 20
+    },
+    {
+      "label": "MIC",
+      "val": 20
+    },
+    {
+      "label": "LIC",
+      "val": 20
+    },
+    {
+      "label": "Neg",
+      "val": 20
+    },
+    {
+      "label": "INE",
+      "val": 20
+    },
+    {
+      "label": "N-Smp",
+      "val": 20
+    },
+    {
+      "label": "I-Smp",
+      "val": 20
+    },
+    {
+      "label": "Sen",
+      "val": 20
+    },
+    {
+      "label": "ISN",
+      "val": 20
+    },
+    {
+      "label": "SEL",
+      "val": 20
+    },
+    {
+      "label": "ISE",
+      "val": 20
+    },
+    {
+      "label": "PRO",
+      "val": 20
+    },
+    {
+      "label": "IPR",
+      "val": 20
+    },
+    {
+      "label": "SPE",
+      "val": 20
+    },
+    {
+      "label": "ISP",
+      "val": 20
+    },
+    {
+      "label": "DTR",
+      "val": 20
+    },
+    {
+      "label": "STA",
+      "val": 20
+    }
+  ],
+  "minUnitAccept": [
+    {
+      "unit": "OD",
+      "val": 0.1
+    },
+    {
+      "unit": "ECL",
+      "val": 100
+    }
+  ],
+  "minPValAccept": [
+    {
+      "test": "One-Way Anova",
+      "val": 0.05
+    },
+    {
+      "test": "Levene",
+      "val": 0.05
+    }
+  ],
+  "autoConvertAll": false,
+  "autoRemoveHighCV": true,
+  "analyst": [
+    {
+      "fn": "a",
+      "ln": "b"
+    }
+  ],
+  "testSystem": [],
+  "cpSetting": [
+    {
+      "cutpointType": "scp",
+      "lot": 51,
+      "ds": 6,
+      "analyst": 2,
+      "datatype": "r",
+      "coef": 0.6,
+      "swcri": 0.05,
+      "cpFocus": "mean",
+      "parametricCri": {
+        "fp": 5,
+        "skewmax": 1,
+        "swcri": 0.05
+      },
+      "percentile": 95,
+      "controlEvalType": "NA",
+      "controlEvalMethod": [
+        {
+          "c": "Neg",
+          "m": "median"
+        },
+        {
+          "c": "LPC",
+          "m": "mean"
+        },
+        {
+          "c": "MPC",
+          "m": "mean"
+        },
+        {
+          "c": "HPC",
+          "m": "mean"
+        }
+      ],
+      "overallPCCri": 67,
+      "pcCri": 67,
+      "negEval": "mean",
+      "bioOutFocus": "mean"
+    },
+    {
+      "cutpointType": "ccp",
+      "lot": 51,
+      "ds": 6,
+      "analyst": 2,
+      "datatype": "p",
+      "swcri": 0.05,
+      "cpFocus": "mean",
+      "parametricCri": {
+        "fp": 1,
+        "skewmax": 1,
+        "swcri": 0.05
+      },
+      "percentile": 99,
+      "drugCon": 1000,
+      "controlEvalType": "NA",
+      "overallPCCri": 67,
+      "inhCri": [
+        {
+          "c": "Neg",
+          "cri": 67
+        },
+        {
+          "c": "LPC",
+          "cri": 67
+        },
+        {
+          "c": "MPC",
+          "cri": 67
+        },
+        {
+          "c": "HPC",
+          "cri": 67
+        }
+      ],
+      "overallInhCri": 67,
+      "pcCri": 67,
+      "ipcCri": 67
+    },
+    {
+      "cutpointType": "tcp",
+      "cpFocus": "threshold",
+      "percentile": "99.9"
+    }
+  ],
+  "titerGroup": [
+    {
+      "group": "Titer1",
+      "conList": [],
+      "label": [
+        {
+          "con": 1000,
+          "cvCri": 20,
+          "factor": "1",
+          "key": "aTSM1",
+          "labelKey": "TSM",
+          "rep": 3
+        }
+      ],
+      "index": "a",
+      "qcType": "HPC1",
+      "qcCon": 1000
+    }
+  ],
+  "preacpSetting": [
+    {
+      "control": "Neg",
+      "upper": 1.5,
+      "umethod": "constant",
+      "lmethod": "none",
+      "intercv": 20
+    },
+    {
+      "control": "LPC",
+      "upper": 2,
+      "lower": 2,
+      "umethod": "std",
+      "lmethod": "std",
+      "intercv": 20
+    },
+    {
+      "control": "LIC",
+      "upper": 2,
+      "lower": 2,
+      "umethod": "std",
+      "lmethod": "std",
+      "intercv": 20
+    },
+    {
+      "control": "MPC",
+      "upper": 2,
+      "lower": 2,
+      "umethod": "std",
+      "lmethod": "std",
+      "intercv": 20
+    },
+    {
+      "control": "HPC",
+      "upper": 2,
+      "lower": 2,
+      "umethod": "std",
+      "lmethod": "std",
+      "intercv": 20
+    },
+    {
+      "control": "HIC",
+      "upper": 2,
+      "lower": 2,
+      "umethod": "std",
+      "lmethod": "std",
+      "intercv": 20
+    }
+  ],
+  "preacpIntraSetting": [
+    {
+      "control": "HPC1",
+      "rep": 6,
+      "cv": 20
+    },
+    {
+      "control": "MPC1",
+      "rep": 6,
+      "cv": 20
+    },
+    {
+      "control": "LPC1",
+      "rep": 6,
+      "cv": 20
+    },
+    {
+      "control": "HIC1",
+      "rep": 6,
+      "cv": 20
+    },
+    {
+      "control": "MIC1",
+      "rep": 6,
+      "cv": 20
+    },
+    {
+      "control": "LIC1",
+      "rep": 6,
+      "cv": 20
+    },
+    {
+      "control": "Neg1",
+      "rep": 6,
+      "cv": 20
+    },
+    {
+      "control": "INE1",
+      "rep": 6,
+      "cv": 20
+    }
+  ],
+  "specificCriMap": [
+    {
+      "group": "Specificity",
+      "conList": [
+        {
+          "con": 0,
+          "cri": "neg"
+        }
+      ],
+      "label": [],
+      "index": "a",
+      "passRate": 80,
+      "cv": 25
+    }
+  ],
+  "senGroup": [
+    {
+      "group": "Sensitivity",
+      "conList": [],
+      "label": [
+        {
+          "con": 500,
+          "cvCri": 20,
+          "factor": "1",
+          "key": "aSEN1",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 250,
+          "cvCri": 20,
+          "factor": "2",
+          "key": "aSEN2",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 125,
+          "cvCri": 20,
+          "factor": "4",
+          "key": "aSEN3",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 62.5,
+          "cvCri": 20,
+          "factor": "8",
+          "key": "aSEN4",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 31.25,
+          "cvCri": 20,
+          "factor": "16",
+          "key": "aSEN5",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 15.625,
+          "cvCri": 20,
+          "factor": "32",
+          "key": "aSEN6",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 7.8125,
+          "cvCri": 20,
+          "factor": "64",
+          "key": "aSEN7",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 3.90625,
+          "cvCri": 20,
+          "factor": "128",
+          "key": "aSEN8",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 0.244140625,
+          "cvCri": 20,
+          "factor": "2048",
+          "key": "aSEN9",
+          "labelKey": "Sen",
+          "rep": 3
+        }
+      ],
+      "index": "a",
+      "passRate": 80,
+      "con": "500"
+    }
+  ],
+  "prozoneGroup": [
+    {
+      "group": "Pro1",
+      "conList": [],
+      "label": [],
+      "index": "a",
+      "passRate": 80
+    }
+  ],
+  "drugToleranceMap": [
+    {
+      "group": "Dru1",
+      "conList": [],
+      "label": [],
+      "index": "a",
+      "lot": 2,
+      "passRate": 67
+    }
+  ],
+  "staMap": [
+    {
+      "group": "Sta1",
+      "conList": [],
+      "label": [],
+      "index": "a",
+      "type": "short",
+      "temp": {
+        "unit": "C",
+        "val": 24
+      },
+      "duration": {
+        "day": 0,
+        "hour": 0,
+        "min": 0
+      }
+    }
+  ],
+  "adaControlMap": [
+    {
+      "key": "HPC1",
+      "labelKey": "HPC",
+      "con": "940"
+    },
+    {
+      "key": "MPC1",
+      "labelKey": "MPC",
+      "con": "760"
+    },
+    {
+      "key": "LPC1",
+      "labelKey": "LPC",
+      "con": 100
+    },
+    {
+      "key": "HIC1",
+      "labelKey": "HIC",
+      "con": "940"
+    },
+    {
+      "key": "MIC1",
+      "labelKey": "MIC",
+      "con": "760"
+    },
+    {
+      "key": "LIC1",
+      "labelKey": "LIC",
+      "con": "100"
+    },
+    {
+      "key": "Neg1",
+      "labelKey": "Neg",
+      "con": "0"
+    },
+    {
+      "key": "INE1",
+      "labelKey": "INE",
+      "con": 0
+    },
+    {
+      "key": "HPC2",
+      "labelKey": "HPC",
+      "con": "840"
+    },
+    {
+      "key": "MPC2",
+      "labelKey": "MPC",
+      "con": "660"
+    },
+    {
+      "key": "LPC2",
+      "labelKey": "LPC",
+      "con": "90"
+    },
+    {
+      "key": "HIC2",
+      "labelKey": "HIC",
+      "con": "840"
+    },
+    {
+      "key": "MIC2",
+      "labelKey": "MIC",
+      "con": "660"
+    },
+    {
+      "key": "LIC2",
+      "labelKey": "LIC",
+      "con": "90"
+    },
+    {
+      "key": "Neg2",
+      "labelKey": "Neg",
+      "con": 0
+    },
+    {
+      "key": "INE2",
+      "labelKey": "INE",
+      "con": 0
+    }
+  ],
+  "calibratorMap": [],
+  "controlMap": [],
+  "spikeCriMap": [
+    {
+      "group": "Selectivity",
+      "conList": [
+        {
+          "con": 0,
+          "cri": "neg"
+        }
+      ],
+      "label": [],
+      "index": "a",
+      "passRate": 80,
+      "cv": 25
+    }
+  ],
+  "diluMap": [],
+  "isLock": false,
+  "applyTiterInh": true,
+  "preacpRules": {
+    "iposGtCP": true,
+    "iposGtCPCri": 67,
+    "isLowtoHigh": true,
+    "passingCri": 67,
+    "posGtCP": true,
+    "posGtCPCri": 67
+  },
+  "applySenInh": true,
+  "preacpSourceControl": {
+    "useCCP": false,
+    "useSCP": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "summaryTab": "//label[normalize-space()='Summary Precision']",
+  "tc": "//th[normalize-space()='Titer Cutpoint']//input[@type='checkbox']",
+  "stable": "//th[normalize-space()='Stability']//input[@type='checkbox']",
+  "sensi": "//th[normalize-space()='Sensitivity']//input[@type='checkbox']",
+  "selecti": "//th[normalize-space()='Selectivity']//input[@type='checkbox']",
+  "sc": "//th[normalize-space()='Screening Cutpoint']//input[@type='checkbox']",
+  "hook": "//th[normalize-space()='Hook Effect']//input[@type='checkbox']",
+  "drug": "//th[normalize-space()='Drug Tolerance']//input[@type='checkbox']",
+  "cc": "//th[normalize-space()='Confirmatory Cutpoint']//input[@type='checkbox']"
+}

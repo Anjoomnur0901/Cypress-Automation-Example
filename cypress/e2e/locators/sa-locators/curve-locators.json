@@ -1,0 +1,6 @@
+{
+  "calCurveAndQC": "//a[normalize-space()='Cal Curve and QC']",
+  "startDataExtrapolationBtn": "//button[normalize-space()='Start Data Extrapolation']",
+  "generateRegressionCurve": "//button[normalize-space()='Generate Regression Curve']",
+  "acceptCurveBtn": "//button[normalize-space()='Accept Curve']"
+}

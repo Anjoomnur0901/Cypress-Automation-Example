@@ -1,0 +1,12 @@
+{
+  "sampleResultTable": "#excel-table-sample-result",
+  "sampleId": "td:nth-child(1)",
+  "meanOd": "td:nth-child(3)",
+  "cv": "td:nth-child(4)",
+  "meanCalConc": "td:nth-child(6)",
+  "df": "td:nth-child(7)",
+  "result": "td:nth-child(8)",
+  "status": "td:nth-child(9)",
+  "sampleResultTab": "//a[normalize-space()='Sample Result']",
+  "acceptResult": "//button[normalize-space()='Accept Result']"
+}

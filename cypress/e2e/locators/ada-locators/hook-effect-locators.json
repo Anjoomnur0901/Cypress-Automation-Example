@@ -1,0 +1,6 @@
+{
+  "hookTab": "//label[normalize-space()='Hook Effect']",
+  "hookTestTab": "//a[normalize-space()='Hook Effect Test']",
+  "p1RadioBtn": "//input[@type='radio']",
+  "pro1": "//label[normalize-space()='Pro1']"
+}

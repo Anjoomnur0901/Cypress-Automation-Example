@@ -1,0 +1,9 @@
+{
+  "selectivityTab": "//label[normalize-space()='Selectivity']",
+  "selectivityTest": "//a[normalize-space()='Selectivity Test']",
+  "addNewSelectivityTestResultBtn": "//button[normalize-space()='Add new Selectivity Test Result']",
+  "female": ":nth-child(1) > .card-header",
+  "male": ":nth-child(2) > .card-header",
+  "d1p1": "//a[normalize-space()='D1_P1_New Plate']",
+  "resultsTable": "[data-cy=selectivity-results-table]"
+}

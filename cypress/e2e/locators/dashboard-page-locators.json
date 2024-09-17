@@ -1,0 +1,5 @@
+{
+  "immunogenicityModule": "//tr[1]//td[2]//div[1]",
+  "pkModule": "//tr[1]//td[3]//div[1]",
+  "saModule": "//h3[normalize-space()='Sample Analysis']"
+}

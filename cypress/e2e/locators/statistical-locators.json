@@ -1,0 +1,22 @@
+{
+  "statistic_tab": "//li[normalize-space()='Statistical Report']",
+  "subsec_btn": "div[class='section-top'] button:nth-child(3)",
+  "sec1": "//div[@id='2.1']//input[@type='text']",
+  "addtable": "//app-edit-study-body//div[@class='study-body-main']//div[@class='ng-star-inserted']//div[@class='ng-star-inserted']//div[@class='ng-star-inserted']//div[@class='tool-bar ng-star-inserted']//button[1]",
+  "data": "//i[@class='fas fa-table fa-5x']",
+  "sec2": "//div[@id='2.2']//input[@type='text']",
+  "av_sc": "//label[normalize-space()='Approved Screening Cutpoint']",
+  "sec3": "//div[@id='2.3']//input[@type='text']",
+  "cc": "//label[normalize-space()='Approved Confirmatory Cutpoint']",
+  "sec4": "//div[@id='2.4']//input[@type='text']",
+  "tc": "//label[normalize-space()='Approved Titer Cutpoint']",
+  "sec5": "//div[@id='2.5']//input[@type='text']",
+  "sensi": "//label[normalize-space()='Final Sensitivity']",
+  "sec6": "//div[@id='2.6']//input[@type='text']",
+  "intra": "//label[normalize-space()='Intra- Inter- Precision']",
+  "sec7": "//div[@id='2.7']//input[@type='text']",
+  "drug": "//label[normalize-space()='Drug Tolerance Result']",
+  "sec8": "//div[@id='2.8']//input[@type='text']",
+  "select": "//label[normalize-space()='Final Selectivity']"
+}
+

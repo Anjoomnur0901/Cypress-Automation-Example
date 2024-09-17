@@ -1,0 +1,8 @@
+{
+  "title": "//input[@placeholder='Program title']",
+  "newProgramDes": "//textarea[@placeholder='Program description']",
+  "newProgramTag": "//input[@placeholder='+ New Tag']",
+  "buttonSave": "button[type='submit']",
+  "editProgramDes": "//tr[3]//td[1]//textarea",
+  "editSaveButton": "[data-cy=edit-save-btn]"
+}

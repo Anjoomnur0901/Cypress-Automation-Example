@@ -1,0 +1,10 @@
+{
+  "calibrationCurveTab": "//label[normalize-space()='Calibration Curve']",
+  "calcurves": "//a[normalize-space()='Calibration Curves']",
+  "addCalibrationCurveBtn": "//button[normalize-space()='Add Calibration Curve']",
+  "addCurveBtn": "//button[normalize-space()='Add Curve']",
+  "WeightMethod": "//label[@class='regression-config ng-star-inserted']//select",
+  "GenerateBtn": "//button[normalize-space()='Generate']",
+  "acceptCurveBtn": "[data-cy=accept-curve-btn]",
+  "proceedToNextBtn": "//button[normalize-space()='Proceed To Next']"
+}

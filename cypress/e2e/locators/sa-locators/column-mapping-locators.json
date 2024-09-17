@@ -1,0 +1,7 @@
+{
+  "treatmentUserText1": ":nth-child(2) > :nth-child(3) > .form-control",
+  "timeText": ":nth-child(3) > :nth-child(3) > .form-control",
+  "visit": ":nth-child(4) > :nth-child(3) > .form-control",
+  "subject": ":nth-child(5) > :nth-child(3) > .form-control",
+  "tubeStatus": ":nth-child(6) > :nth-child(3) > .form-control"
+}

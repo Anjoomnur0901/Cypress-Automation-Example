@@ -1,0 +1,8 @@
+{
+  "titerTab": "//label[normalize-space()='Titer Cutpoint']",
+  "cutpointAnalysisTab": "//a[normalize-space()='Cutpoint Analysis']",
+  "parametricBtn": "//button[normalize-space()='Parametric']",
+  "evaluateTab": "//a[normalize-space()='Titer Evaluation Test']",
+  "titerCheckbox": "//label[normalize-space()='Titer1']",
+  "approveIcon": "//tr[2]//td[6]//button[1]//i[1]"
+}

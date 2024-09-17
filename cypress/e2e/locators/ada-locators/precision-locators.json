@@ -1,0 +1,5 @@
+{
+  "precisionTab": "//label[normalize-space()='Precision and Acceptance Criteria']",
+  "acceptenceCriteriaTab": "//a[normalize-space()='Acceptance Criteria']",
+  "intraAssayTab": "//a[normalize-space()='Intra-Assay']"
+}

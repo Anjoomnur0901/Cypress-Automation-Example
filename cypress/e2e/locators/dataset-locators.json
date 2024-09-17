@@ -1,0 +1,4 @@
+{
+  "addNewDataset": "//label[normalize-space()='Add New Dataset']",
+  "addNewPlate": "//label[normalize-space()='Add New Plate']"
+}

@@ -1,0 +1,509 @@
+{
+  "templatePlate": [],
+  "cvCriteria": [
+    {
+      "label": "HPC",
+      "val": 20
+    },
+    {
+      "label": "MPC",
+      "val": 20
+    },
+    {
+      "label": "LPC",
+      "val": 20
+    },
+    {
+      "label": "HIC",
+      "val": 20
+    },
+    {
+      "label": "MIC",
+      "val": 20
+    },
+    {
+      "label": "LIC",
+      "val": 20
+    },
+    {
+      "label": "Neg",
+      "val": 20
+    },
+    {
+      "label": "INE",
+      "val": 20
+    },
+    {
+      "label": "N-Smp",
+      "val": 20
+    },
+    {
+      "label": "I-Smp",
+      "val": 20
+    },
+    {
+      "label": "Sen",
+      "val": 20
+    },
+    {
+      "label": "ISN",
+      "val": 20
+    },
+    {
+      "label": "SEL",
+      "val": 20
+    },
+    {
+      "label": "ISE",
+      "val": 20
+    },
+    {
+      "label": "PRO",
+      "val": 20
+    },
+    {
+      "label": "IPR",
+      "val": 20
+    },
+    {
+      "label": "SPE",
+      "val": 20
+    },
+    {
+      "label": "ISP",
+      "val": 20
+    },
+    {
+      "label": "DTR",
+      "val": 20
+    },
+    {
+      "label": "STA",
+      "val": 20
+    }
+  ],
+  "minUnitAccept": [
+    {
+      "unit": "OD",
+      "val": 0.1
+    },
+    {
+      "unit": "ECL",
+      "val": 100
+    }
+  ],
+  "minPValAccept": [
+    {
+      "test": "One-Way Anova (p-value)",
+      "val": 0.05
+    },
+    {
+      "test": "Levene (p-value)",
+      "val": 0.05
+    }
+  ],
+  "autoConvertAll": false,
+  "autoRemoveHighCV": true,
+  "isLock": false,
+  "analyst": [
+    {
+      "fn": "a",
+      "ln": "b"
+    }
+  ],
+  "cpSetting": [
+    {
+      "analyst": 2,
+      "coef": 0.6,
+      "controlEvalMethod": [
+        {
+          "c": "Neg",
+          "m": "median"
+        },
+        {
+          "c": "LPC",
+          "m": "mean"
+        },
+        {
+          "c": "MPC",
+          "m": "mean"
+        },
+        {
+          "c": "HPC",
+          "m": "mean"
+        }
+      ],
+      "controlEvalType": "NA",
+      "cpFocus": "mean",
+      "cutpointType": "scp",
+      "datatype": "lr",
+      "ds": 6,
+      "lot": 51,
+      "overallPCCri": 67,
+      "parametricCri": {
+        "fp": 5,
+        "skewmax": 1,
+        "swcri": 0.05
+      },
+      "pcCri": 67,
+      "percentile": 95,
+      "swcri": 0.05
+    },
+    {
+      "analyst": 2,
+      "controlEvalType": "NA",
+      "cpFocus": "mean",
+      "cutpointType": "ccp",
+      "datatype": "p",
+      "drugCon": 1000,
+      "ds": 6,
+      "inhCri": [
+        {
+          "c": "Neg",
+          "cri": 67
+        },
+        {
+          "c": "LPC",
+          "cri": 67
+        },
+        {
+          "c": "MPC",
+          "cri": 67
+        },
+        {
+          "c": "HPC",
+          "cri": 67
+        }
+      ],
+      "ipcCri": 67,
+      "lot": 51,
+      "overallInhCri": 67,
+      "overallPCCri": 67,
+      "parametricCri": {
+        "fp": 1,
+        "skewmax": 1,
+        "swcri": 0.05
+      },
+      "pcCri": 67,
+      "percentile": 99,
+      "swcri": 0.05
+    },
+    {
+      "cpFocus": "threshold",
+      "cutpointType": "tcp",
+      "percentile": "99.9"
+    }
+  ],
+  "titerGroup": [
+    {
+      "group": "Titer1",
+      "index": "a",
+      "label": [
+        {
+          "con": 1000,
+          "cvCri": 20,
+          "factor": "1",
+          "key": "aTSM1",
+          "labelKey": "TSM",
+          "rep": 3
+        }
+      ],
+      "qcCon": 1000,
+      "qcType": "HPC1"
+    }
+  ],
+  "applyTiterInh": true,
+  "preacpRules": {
+    "iposGtCP": true,
+    "iposGtCPCri": 67,
+    "isLowtoHigh": true,
+    "passingCri": 67,
+    "posGtCP": true,
+    "posGtCPCri": 67
+  },
+  "preacpSetting": [
+    {
+      "control": "Neg",
+      "intercv": 20,
+      "lmethod": "none",
+      "umethod": "constant",
+      "upper": 1.5
+    },
+    {
+      "control": "LPC",
+      "intercv": 20,
+      "lmethod": "std",
+      "lower": 2,
+      "umethod": "std",
+      "upper": 2
+    },
+    {
+      "control": "LIC",
+      "intercv": 20,
+      "lmethod": "std",
+      "lower": 2,
+      "umethod": "std",
+      "upper": 2
+    },
+    {
+      "control": "MPC",
+      "intercv": 20,
+      "lmethod": "std",
+      "lower": 2,
+      "umethod": "std",
+      "upper": 2
+    },
+    {
+      "control": "HPC",
+      "intercv": 20,
+      "lmethod": "std",
+      "lower": 2,
+      "umethod": "std",
+      "upper": 2
+    },
+    {
+      "control": "HIC",
+      "intercv": 20,
+      "lmethod": "std",
+      "lower": 2,
+      "umethod": "std",
+      "upper": 2
+    }
+  ],
+  "applySelInh": false,
+  "senGroup": [
+    {
+      "con": "500",
+      "group": "Sensitivity",
+      "index": "a",
+      "label": [
+        {
+          "con": 500,
+          "cvCri": 20,
+          "factor": "1",
+          "key": "aSEN1",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 250,
+          "cvCri": 20,
+          "factor": "2",
+          "key": "aSEN2",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 125,
+          "cvCri": 20,
+          "factor": "4",
+          "key": "aSEN3",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 62.5,
+          "cvCri": 20,
+          "factor": "8",
+          "key": "aSEN4",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 31.25,
+          "cvCri": 20,
+          "factor": "16",
+          "key": "aSEN5",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 15.625,
+          "cvCri": 20,
+          "factor": "32",
+          "key": "aSEN6",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 7.8125,
+          "cvCri": 20,
+          "factor": "64",
+          "key": "aSEN7",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 3.90625,
+          "cvCri": 20,
+          "factor": "128",
+          "key": "aSEN8",
+          "labelKey": "Sen",
+          "rep": 3
+        },
+        {
+          "con": 0.244140625,
+          "cvCri": 20,
+          "factor": "2048",
+          "key": "aSEN9",
+          "labelKey": "Sen",
+          "rep": 3
+        }
+      ],
+      "passRate": 80
+    }
+  ],
+  "applySenInh": true,
+  "drugToleranceMap": [
+    {
+      "group": "Dru1",
+      "index": "a",
+      "lot": 2,
+      "passRate": 67
+    }
+  ],
+  "applyStaInh": false,
+  "staMap": [
+    {
+      "duration": {
+        "day": 0,
+        "hour": 0,
+        "min": 0
+      },
+      "group": "Sta1",
+      "index": "a",
+      "temp": {
+        "unit": "C",
+        "val": 24
+      },
+      "type": "short"
+    }
+  ],
+  "adaControlMap": [
+    {
+      "con": "940",
+      "key": "HPC1",
+      "labelKey": "HPC"
+    },
+    {
+      "con": "760",
+      "key": "MPC1",
+      "labelKey": "MPC"
+    },
+    {
+      "con": 100,
+      "key": "LPC1",
+      "labelKey": "LPC"
+    },
+    {
+      "con": "940",
+      "key": "HIC1",
+      "labelKey": "HIC"
+    },
+    {
+      "con": "760",
+      "key": "MIC1",
+      "labelKey": "MIC"
+    },
+    {
+      "con": "100",
+      "key": "LIC1",
+      "labelKey": "LIC"
+    },
+    {
+      "con": "0",
+      "key": "Neg1",
+      "labelKey": "Neg"
+    },
+    {
+      "con": 0,
+      "key": "INE1",
+      "labelKey": "INE"
+    }
+  ],
+  "spikeCriMap": [
+    {
+      "conList": [
+        {
+          "con": 0,
+          "cri": "neg"
+        }
+      ],
+      "cv": 25,
+      "group": "Selectivity",
+      "index": "a",
+      "passRate": 80
+    }
+  ],
+  "preacpIntraSetting": [
+    {
+      "control": "HPC1",
+      "cv": 20,
+      "rep": 6
+    },
+    {
+      "control": "MPC1",
+      "cv": 20,
+      "rep": 6
+    },
+    {
+      "control": "LPC1",
+      "cv": 20,
+      "rep": 6
+    },
+    {
+      "control": "HIC1",
+      "cv": 20,
+      "rep": 6
+    },
+    {
+      "control": "MIC1",
+      "cv": 20,
+      "rep": 6
+    },
+    {
+      "control": "LIC1",
+      "cv": 20,
+      "rep": 6
+    },
+    {
+      "control": "Neg1",
+      "cv": 20,
+      "rep": 6
+    },
+    {
+      "control": "INE1",
+      "cv": 20,
+      "rep": 6
+    }
+  ],
+  "preacpSourceControl": {
+    "useCCP": false,
+    "useSCP": true
+  },
+  "applySpecInh": false,
+  "specificCriMap": [
+    {
+      "conList": [
+        {
+          "con": 0,
+          "cri": "neg"
+        }
+      ],
+      "cv": 25,
+      "group": "Specificity",
+      "index": "a",
+      "passRate": 80
+    }
+  ],
+  "prozoneGroup": [
+    {
+      "group": "Pro1",
+      "index": "a",
+      "passRate": 80
+    }
+  ],
+  "applyProzInh": false,
+  "testSystem": [],
+  "drugUnit": "ug/mL"
+}

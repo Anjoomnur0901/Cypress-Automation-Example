@@ -1,0 +1,21 @@
+{
+  "editStudyContent": ".edit-study-content",
+  "title": "//input[@placeholder='Study Title']",
+  "newStudyDes": "//textarea[@placeholder='Study description']",
+  "newStudyTag": "//input[@placeholder='+ New Tag']",
+  "choseConfigJson": "//input[@type='file']",
+  "buttonSave": "//button[normalize-space()='Save']",
+  "editStudyDes": "//tr[6]//td[1]//textarea",
+  "nextButton": "//button[normalize-space()='Next']",
+  "advanceSettings": "//button[normalize-space()='Advanced Setting']",
+  "GLPCheckbox": "//input[@value='true']",
+  "programDropdown": "[data-cy=program-select]",
+  "projectDropdown": "[data-cy=project-select]",
+  "linkStudyTextField": ".link-study-search > input",
+  "studyDropdown": ".filter-list-container",
+  "goToProject": ".breadcrumb > :nth-child(2) > a",
+  "moduleDropdown": "[data-cy=module-select]",
+  "sideNavStudyList": ".obj-list",
+  "importManifestBtn": "//button[normalize-space()='Import .xlsx file']",
+  "studyDescriptionTextArea": "[data-cy=study-description-textarea]"
+}

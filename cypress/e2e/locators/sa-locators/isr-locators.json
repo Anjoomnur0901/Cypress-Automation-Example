@@ -1,0 +1,5 @@
+{
+  "isrTab": "//label[normalize-space()='Incurred Sample Reanalysis']",
+  "acceptSelection": "//button[normalize-space()='Accept Selection']",
+  "isrResult": "//a[normalize-space()='ISR Result']"
+}

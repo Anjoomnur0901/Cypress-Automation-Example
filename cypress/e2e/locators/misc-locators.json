@@ -1,0 +1,20 @@
+{
+  "addNewButton": "button[title='Add A New Program/Project/Study']",
+  "newProgramFromAddNew": "//li[normalize-space()='New Program']",
+  "newProjectFromAddNew": "//li[normalize-space()='New Project']",
+  "newStudyFromAddNew": "//li[normalize-space()='New Study']",
+  "notificationModal": ".notification-modal",
+  "approveIconBtn": "[data-cy=approve-icon-btn]",
+  "unapproveIconBtn": "[data-cy=unapprove-icon-btn]",
+  "editBtn": "[data-cy=edit-btn]",
+  "editSaveBtn": "[data-cy=edit-save-btn]",
+  "editPencilIcon": "//i[@class='fas fa-lg fa-edit']",
+  "saveBtn": "//button[normalize-space()='Save']",
+  "assign": "app-labels-toolbox > .btn-info",
+  "acceptBtn": "//button[normalize-space()='Accept']",
+  "yesBtn": "//button[normalize-space()='Yes']",
+  "submitBtn": "//button[normalize-space()='Submit']",
+  "addNewDataset": "//label[normalize-space()='Add New Dataset']",
+  "addNewPlate": "//label[normalize-space()='Add New Plate']",
+  "cancelBtn": "[data-cy=cancel-btn]"
+}
